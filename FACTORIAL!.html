@@ -8,8 +8,9 @@
  </head>
  <body>
     hi
-    <button onclick="factorialize(num);"> click me</button>
+    <button onclick="factorialize();"> click me to factorialize</button>
     <script>
+     function factorialize(){
       var num =prompt("enter the number to factorize");
 if (num==1 || num==0){
     num=1;
@@ -20,7 +21,7 @@ else{
   }
 }
  alert(num); 
-
+}
   </script> 
  </body>
  </html>
